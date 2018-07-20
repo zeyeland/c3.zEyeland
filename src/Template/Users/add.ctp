@@ -18,14 +18,14 @@
             echo $this->Form->control('islander_name');
             echo $this->Form->control('email');
             echo $this->Form->control('password');
-       /*     echo $this->Form->control('body');
+            echo $this->Form->control('body');
             echo $this->Form->control('mind');
             echo $this->Form->control('spirit');
             echo $this->Form->control('level');
             echo $this->Form->control('exp');
             echo $this->Form->control('purse');
             echo $this->Form->control('honor');
-            echo $this->Form->control('health');   */
+            echo $this->Form->control('health');   
             echo $this->Form->control('islander_focus');
         ?>
     </fieldset>

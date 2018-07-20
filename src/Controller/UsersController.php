@@ -13,6 +13,13 @@ use App\Controller\AppController;
 class UsersController extends AppController
 {
 
+
+    public function initialize()
+    {
+        parent::initialize();
+        $this->Auth->allow(['logout', 'register', 'index']);
+    }
+
     /**
      * Index method
      *
@@ -48,7 +55,7 @@ class UsersController extends AppController
      */
     public function add()
     {
-        $user = $this->Users->newEntity([
+        $user = $this->Users->newEntity(/*[
             'body' => 1,
             'mind' => 1,
             'spirit' => 1,
@@ -56,8 +63,8 @@ class UsersController extends AppController
             'exp' => 0,
             'purse' => 0,
             'honor' => 1,
-            'health' => 100
-        ]);
+            'health' => 100 
+        ]*/);
         if ($this->request->is('post')) {
             $user = $this->Users->patchEntity($user, $this->request->getData());
             if ($this->Users->save($user)) {
@@ -130,4 +137,29 @@ class UsersController extends AppController
          $this->Flash->success('You are logged out');
          return $this->redirect($this->Auth->logout());
     }
+
+    // Register
+    public function register(){
+        $user = $this->Users->newEntity([
+            'body' => 1,
+            'mind' => 1,
+            'spirit' => 1,
+            'level' => 1,
+            'exp' => 0,
+            'purse' => 0,
+            'honor' => 1,
+            'health' => 100
+        ]);
+        if ($this->request->is('post')) {
+            $user = $this->Users->patchEntity($user, $this->request->getData());
+            if ($this->Users->save($user)) {
+                $this->Flash->success(__('The user has been saved.'));
+
+                return $this->redirect(['action' => 'index']);
+            }
+            $this->Flash->error(__('The user could not be saved. Please, try again.'));
+        }
+        $this->set(compact('user'));
+   }
+  
 }
