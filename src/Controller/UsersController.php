@@ -17,7 +17,7 @@ class UsersController extends AppController
     public function initialize()
     {
         parent::initialize();
-        $this->Auth->allow(['logout', 'register', 'index']);
+        $this->Auth->allow(['logout', 'register']);
     }
 
     /**
@@ -28,7 +28,7 @@ class UsersController extends AppController
     public function index()
     {
         $users = $this->paginate($this->Users);
-
+        debug($this->Auth->user());
         $this->set(compact('users'));
     }
 
@@ -126,7 +126,8 @@ class UsersController extends AppController
             $user = $this->Auth->identify();
             if($user){
                 $this->Auth->setUser($user);
-                return $this->redirect(['controller' => 'users']);
+                //debug($this->Auth->identify()); die();
+                return $this->redirect(['controller' => 'MyIslander']);
             }
             // Bad Login
             $this->Flash->error('Incorrect Login');

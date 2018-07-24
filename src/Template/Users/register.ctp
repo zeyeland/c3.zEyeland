@@ -25,7 +25,7 @@
 
 <div class="index large-4 medium-4 large-offset-4 medium-offset-4 columns">
 <?php
-    echo $this->Html->image('cake.logo.svg', ['alt' => 'CakePHP']);
+    echo $this->Html->image('cake.logo.png', ['alt' => 'CakePHP']);
     
     echo(1);
 ?>
