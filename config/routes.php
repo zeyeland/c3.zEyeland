@@ -61,6 +61,8 @@ Router::scope('/', function (RouteBuilder $routes) {
 
     $routes->connect('myislander', ['controller' => 'MyIslander', 'action' => 'index']);
 
+    $routes->connect('quest', ['controller' => 'quest', 'action' => 'index']);
+
     /**
      * Connect catchall routes for all controllers.
      *
