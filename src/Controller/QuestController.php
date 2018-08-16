@@ -27,7 +27,15 @@ class QuestController extends AppController
     {
         $thisUser = $this->Auth->user();
         $this->set('thisUser', $thisUser);
+        $this->redirect(['controller' => 'Quest', 'action' => 'grandSea']);
         
+    }
+    public function grandSea(){
+
+    }
+
+    public function scene1(){
+
     }
 
 }
