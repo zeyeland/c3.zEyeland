@@ -12,7 +12,7 @@
  Page 2
     <div class="panel">
     As an eyeland'r thee floateth, drifting one with the ocean.  Landeth hoooo far off in the distance.  I spy with mine own eye an island within the distance.  
-    Landeth hooo, the plank drifts clos'r to the starteth of thy journey.  zeyeland awaits thy arrival. <br><br>
+    Landeth hooo, the plank drifts clos'r to the starteth of thy journey.  zeyeland awaits thy arrival. 
     You open your eyes to find yourself drifting a sea. One does'nt recall what has landed self in this situation. You spot land in the near distance.
     Your heart pumps expeditously from the uncertainty of what this island has in store. Land hooo, your inner self mumbles. Land hooooo.
 	</div>
@@ -32,7 +32,7 @@
 </div>
 
     <br><br> <br> <br> <br> <br> <br> <br> <br> <br> <br><br><br>
-    <button type="button" class="btn btn-primary">Previous - Page 1: Big Bang</button> <button type="button" class="btn btn-primary">Continue - Page 3: Sunny Side Shore</button>
+    <button type="button" class="btn btn-primary">Previous - Page 2: Sunny Side Shore</button> <button type="button" class="btn btn-primary">Continue - Page 4: Not Defined</button>
 
 
 
