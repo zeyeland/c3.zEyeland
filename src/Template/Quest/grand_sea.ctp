@@ -20,20 +20,17 @@
 <div class="index large-8 medium-8 large-offset-2 medium-offset-2 columns">
     Page 1
 	<div class="panel">
-    Game picture will be here.  Game picture will be here. Game picture will be here. Game picture will be here. Game picture will be here.
-    Game picture will be here.  Game picture will be here. Game picture will be here. Game picture will be here. Game picture will be here.
-    Game picture will be here.  Game picture will be here. Game picture will be here. Game picture will be here. Game picture will be here.
-    Game picture will be here.  Game picture will be here. Game picture will be here. Game picture will be here. Game picture will be here.
-    Game picture will be here.  Game picture will be here. Game picture will be here. Game picture will be here. Game picture will be here.
-    Game picture will be here.  Game picture will be here. Game picture will be here. Game picture will be here. Game picture will be here.
-    Game picture will be here.  Game picture will be here. Game picture will be here. Game picture will be here. Game picture will be here.
+        <?= $this->Html->image('scene2/byTheKraken.jpeg', ['alt' => 'CakePHP']) ?>
+        <?= $this->Html->image('scene2/cavern.gif', ['alt' => 'CakePHP']) ?>
+        <?= $this->Html->image('scene2/islandFromFar.jpg', ['alt' => 'CakePHP']) ?>
 	</div>
 
 </div>
 
     <br><br> <br> <br> <br> <br> <br> <br> <br> <br> <br><br><br>
-    <button type="button" class="btn btn-primary">Previous - Page 1: Big Bang</button> <button type="button" class="btn btn-primary">Continue - Page 3: Sunny Side Shore</button>
-
+    <button type="button" class="btn btn-success">
+    <?= $this->Html->link(__('Continue - Page 3: Land Oh'), ['action' => 'landOh']) ?>
+    </button>
 
 
 

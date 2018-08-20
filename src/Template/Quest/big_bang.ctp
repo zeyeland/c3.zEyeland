@@ -19,8 +19,8 @@ Page 1
 <div class="index large-8 medium-8 large-offset-2 medium-offset-2 columns">
     Page 1
 	<div class="panel">
-        <?= $this->Html->image('scene1/beg1.jpg', ['alt' => 'CakePHP']) ?>
-        <?= $this->Html->image('scene1/beg2.jpg', ['alt' => 'CakePHP']) ?>
+        <?= $this->Html->image('scene1/beg3.jpg', ['alt' => 'CakePHP']) ?>
+        <?= $this->Html->image('scene1/beg4.jpg', ['alt' => 'CakePHP']) ?>
 	</div>
 
 </div>
@@ -28,7 +28,7 @@ Page 1
     <br><br> <br> <br> <br> <br> <br> <br> <br> <br> <br><br><br>
 
     <button type="button" class="btn btn-success">
-    <?= $this->Html->link(__('Continue - Page 2: Big Bang'), ['action' => 'bigBang']) ?>
+    <?= $this->Html->link(__('Continue - Page 2: Grand Sea'), ['action' => 'grandSea']) ?>
     </button>
 
 

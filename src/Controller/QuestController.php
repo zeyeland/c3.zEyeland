@@ -33,6 +33,9 @@ class QuestController extends AppController
     public function theBegining(){
 
     }
+    public function bigBang(){
+
+    }
 
     public function grandSea(){
 
