@@ -2,6 +2,7 @@
     //logic to display cool phrases instead of spirit mind body level(int) -> string
     //<div class="index large-5 medium-5 large-offset-4 medium-offset-4 columns">
     echo $this->Html->css('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css');
+    echo $this->Html->css('play.css');
     echo $this->Html->script('https://code.jquery.com/jquery-3.3.1.slim.min.js');
     echo $this->Html->script('https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js');
     echo $this->Html->script('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js');
@@ -9,26 +10,30 @@
 ?>
 <br>
 
-Page 1
-<div class="panel">
-    The st'ry of eye beginneth longeth ago. Cosmic earths square in battleth. Only timeth can bid what is in st're f'r future. Shall thee decideth thy faith or 
-    marith in the purity of hon'r. Prehaps shalt seeketh spiritual prosp'rity and its assets of gold. Shouldst thee falleth victim to unfav'rable circumstances
-    the kracken shall judgeth aft'r its hath said 'r done. Did bless, shouldst the dice rolleth in fav'rable odds. Welcometh to zEyeland scrubeth
-</div>
-
-<div class="index large-8 medium-8 large-offset-2 medium-offset-2 columns">
-    Page 1
+    Chapter 1: The Big Bag War
 	<div class="panel">
-        <?= $this->Html->image('scene1/beg3.jpg', ['alt' => 'CakePHP']) ?>
-        <?= $this->Html->image('scene1/beg4.jpg', ['alt' => 'CakePHP']) ?>
+        The st'ry of eye beginneth longeth ago. Before polarity took capture of Light and Dark. 
+        The planetary dimensions seek after a third attribute; the third side of a coin. A platform between hex #FFFFFF and #000000.
+        F'r hon'r and most wondrous'r purpose. Cosmic earths square in battleth for equal contest. 
+        Gigantic boulders crumble to dust. Stars turn into harmonic fires. Mountains conquer bodies of oceans. 
+        The only withheld beauty is evolution. 
+        <br>
+        <?= $this->Html->image('scene1/beg1.jpg', ['alt' => 'CakePHP']) ?>
+        <br>
+        The planetary warfare inspires The first number too seek more than love, 
+        too solve the unknown. White bites the apple reveling The Third Side of Coin. He feels hate from love and love from hate. 
+        This profound knowledge results in divine separation from his beloved Black. 
+        The dimensions usher into the  new era of Balance giving opportunity for new life and choice.
+        <br>
+        <?= $this->Html->image('scene1/beg2.jpg', ['alt' => 'CakePHP']) ?>
 	</div>
 
-</div>
 
-    <br><br> <br> <br> <br> <br> <br> <br> <br> <br> <br><br><br>
+
+    <br><br> 
 
     <button type="button" class="btn btn-success">
-    <?= $this->Html->link(__('Continue - Page 2: Grand Sea'), ['action' => 'grandSea']) ?>
+    <?= $this->Html->link(__('Continue - Page 2: The New World'), ['action' => 'newWorld']) ?>
     </button>
 
 

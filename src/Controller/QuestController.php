@@ -27,11 +27,13 @@ class QuestController extends AppController
     {
         $thisUser = $this->Auth->user();
         $this->set('thisUser', $thisUser);
-        $this->redirect(['controller' => 'Quest', 'action' => 'theBegining']);
+        $this->redirect(['controller' => 'Quest', 'action' => 'bigBang']);
         
     }
-    public function theBegining(){
-
+    public function newWorld(){
+        //$thisUser = $this->Auth->user();
+        //debug($thisUser);
+        //$this->set('thisUser', $thisUser);
     }
     public function bigBang(){
 
