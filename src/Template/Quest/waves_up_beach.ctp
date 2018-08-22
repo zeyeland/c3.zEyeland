@@ -10,22 +10,24 @@
     echo $this->Html->script('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js');
 
 ?>
-<br>
-
- Chapter 1: Land Ohhh 
- 
+<br> 
+Wave Up Beach
 	<div class="panel">
-    Welcometh to zEyeland scrubeth
+    Just a typical beautiful day here on zEyeland
         <?= $this->Html->image('scene3/wavesUp.jpg', ['alt' => 'CakePHP']) ?>
         <br>
+        Surfs up dUDe!
         <?= $this->Html->image('scene3/wavesUp1.jpg', ['alt' => 'CakePHP']) ?>
+            <button type="button" class="buttonObjectives">
+                Talk to Surf Man Stevie
+            </button>
 	</div>
 
 
     <br><br>
     <div class="compass">
         <button type="button" class="btn btn-success">
-              <?= $this->Html->link(__('Back to LandOh Beach'), ['action' => 'landOh']) ?>
+              <?= $this->Html->link(__('Back to Land Oh Beach'), ['action' => 'landOh']) ?>
         </button>
     </div>
 

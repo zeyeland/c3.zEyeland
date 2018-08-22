@@ -31,7 +31,7 @@
 
         <div class="compass">
         <button type="button" class="btn btn-success">
-        <?= $this->Html->link(__('Continue - Page 2: Grand Sea'), ['action' => 'grandSea']) ?>
+        <?= $this->Html->link(__('Continue: Grand Sea ->'), ['action' => 'grandSea']) ?>
         </button>
     </div>
 

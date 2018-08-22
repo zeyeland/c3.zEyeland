@@ -18,14 +18,14 @@
         <br>
             <?= $this->Html->image('scene2/byTheKraken.jpeg', ['alt' => 'CakePHP']) ?>
         <br>
-            <button type="button" class="btn btn-success">
+            <button type="button" class="buttonObjectives">
                 Stare into its eyes of the Kraken and mug.
             </button>
         <br>
         <br>
         <?= $this->Html->image('scene2/cavern.gif', ['alt' => 'CakePHP']) ?>
          <br>  
-          <button type="button" class="btn btn-success">
+          <button type="button" class="buttonObjectives">
                 Look around the cavern.
             </button>
             
@@ -43,7 +43,7 @@
 
         <div class="compass">
         <button type="button" class="btn btn-success">
-          <?= $this->Html->link(__('Continue - Page 3: Land Oh'), ['action' => 'landOh']) ?>
+          <?= $this->Html->link(__('Continue Page 4: Land Oh'), ['action' => 'landOh']) ?>
         </button>
     </div>
 

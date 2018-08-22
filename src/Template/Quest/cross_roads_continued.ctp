@@ -24,11 +24,11 @@
 
 <div class="compass">
         <button type="button" class="btn btn-success" class="buttonConfig">
-              <?= $this->Html->link(__('Continue north down the path'), ['action' => 'landOh']) ?>
+              <?= $this->Html->link(__('Back to the crossroad'), ['action' => 'crossRoads']) ?>
         </button>
         <br><br>
         <button type="button" class="btn btn-success">
-             <?= $this->Html->link(__('Adventure through left path'), ['action' => 'wavesUpBeach']) ?>
+             <?= $this->Html->link(__('To be continued...'), ['action' => 'landOh']) ?>
         </button>
     </div>
 

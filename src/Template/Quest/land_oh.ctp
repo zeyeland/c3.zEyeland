@@ -17,8 +17,14 @@
 	<div class="panel">
     Welcometh to zEyeland scrubeth
         <?= $this->Html->image('scene3/landOhBeach.jpg', ['alt' => 'CakePHP']) ?>
-        <br>
+            <button type="button" class="buttonObjectives">
+                Explore crashed ship
+            </button>
+        <br><br>
         <?= $this->Html->image('scene3/meetNgreet.jpg', ['alt' => 'CakePHP']) ?>
+            <button type="button" class="buttonObjectives">
+                Fill this in later!!!
+            </button>
 	</div>
 
 

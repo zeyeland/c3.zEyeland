@@ -11,12 +11,17 @@
 
 ?>
 <br>
-
- Chapter 1: Land Ohhh 
+    The Crossroads (Caution)
  
 	<div class="panel">
-    Welcometh to zEyeland scrubeth
+    Enjoying the scenery, you drift off the path. Wow, whats going on here, you quickly hide behind a tall bush. 
+    Looks like you've stumpled into the wrong place wrong time? These guys mean buisness, better
+    not interput. These islanders look out of my leauge.
         <?= $this->Html->image('scene3/wrongWay.jpg', ['alt' => 'CakePHP']) ?>
+        <br>
+        <button type="button"  class="buttonWarning">
+              <?= $this->Html->link(__('(WARNING) Lets get out of here before your spotted'), ['action' => 'crossRoads']) ?>
+        </button>
 	</div>
 
 
@@ -24,12 +29,9 @@
 
 <div class="compass">
         <button type="button" class="btn btn-success" class="buttonConfig">
-              <?= $this->Html->link(__('Continue north down the path'), ['action' => 'landOh']) ?>
+              <?= $this->Html->link(__('Go back'), ['action' => 'crossRoads']) ?>
         </button>
         <br><br>
-        <button type="button" class="btn btn-success">
-             <?= $this->Html->link(__('Adventure through left path'), ['action' => 'wavesUpBeach']) ?>
-        </button>
     </div>
 
 

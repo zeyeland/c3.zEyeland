@@ -12,7 +12,7 @@
 ?>
 <br>
 
- Chapter 1: Land Ohhh 
+ Chapter 1: The Crossroads 
  
 	<div class="panel">
     Welcometh to zEyeland scrubeth
@@ -23,12 +23,16 @@
     <br><br> 
 
 <div class="compass">
-        <button type="button" class="btn btn-success" class="buttonConfig">
+        <button type="button" class="btn btn-success">
               <?= $this->Html->link(__('Continue north down the path'), ['action' => 'crossRoadsContinued']) ?>
         </button>
         <br><br>
+        <button type="button" class="buttonObjectives">
+            <?= $this->Html->link(__('Adventure through left path'), ['action' => 'crossRoadsCaution']) ?>  
+        </button>
+        <br><br>
         <button type="button" class="btn btn-success">
-             <?= $this->Html->link(__('Adventure through left path'), ['action' => 'crossRoadsCaution']) ?>
+            <?= $this->Html->link(__('Head back to LandOh Beach'), ['action' => 'landOh']) ?>        
         </button>
     </div>
 
