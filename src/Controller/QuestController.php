@@ -27,27 +27,41 @@ class QuestController extends AppController
     {
         $thisUser = $this->Auth->user();
         $this->set('thisUser', $thisUser);
+        //debug($thisUser);
         $this->redirect(['controller' => 'Quest', 'action' => 'bigBang']);
         
     }
-    public function newWorld(){
-        //$thisUser = $this->Auth->user();
-        //debug($thisUser);
-        //$this->set('thisUser', $thisUser);
-    }
+    //Chapter 1: Scene 1
     public function bigBang(){
+        
+    }
+    //Chapter 1: Scene 1.2
+    public function newWorld(){
 
     }
-
+    //Chapter 1: Scene 2
     public function grandSea(){
 
     }
-
+    //Chapter 1: Scene 3
     public function landOh(){
 
     }
-    public function sunnySideShore(){
+    //Chapter 1: Scene 3.2
+    public function wavesUpBeach(){
 
+    }
+    //Chapter 1: Scene 3.3
+    public function crossRoads(){
+
+    }
+    //Chapter 1: Scene 3.4
+    public function crossRoadsCaution(){
+        
+    }
+    //Chapter 1: Scene 3.5
+    public function crossRoadsContinued(){
+        
     }
 
 }

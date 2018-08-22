@@ -16,9 +16,7 @@
  
 	<div class="panel">
     Welcometh to zEyeland scrubeth
-        <?= $this->Html->image('scene3/landOhBeach.jpg', ['alt' => 'CakePHP']) ?>
-        <br>
-        <?= $this->Html->image('scene3/meetNgreet.jpg', ['alt' => 'CakePHP']) ?>
+        <?= $this->Html->image('scene3/rightWay.jpg', ['alt' => 'CakePHP']) ?>
 	</div>
 
 
@@ -26,11 +24,11 @@
 
 <div class="compass">
         <button type="button" class="btn btn-success" class="buttonConfig">
-              <?= $this->Html->link(__('Explore the west coast'), ['action' => 'wavesUpBeach']) ?>
+              <?= $this->Html->link(__('Continue north down the path'), ['action' => 'landOh']) ?>
         </button>
         <br><br>
         <button type="button" class="btn btn-success">
-        <?= $this->Html->link(__('Continue down path'), ['action' => 'crossRoads']) ?>        
+             <?= $this->Html->link(__('Adventure through left path'), ['action' => 'wavesUpBeach']) ?>
         </button>
     </div>
 

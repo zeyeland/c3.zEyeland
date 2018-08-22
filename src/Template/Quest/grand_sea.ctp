@@ -41,10 +41,11 @@
         <?= $this->Html->image('scene2/islandFromFar.jpg', ['alt' => 'CakePHP']) ?>
 	</div>
 
-    <br><br> 
-    <button type="button" class="btn btn-success">
-    <?= $this->Html->link(__('Continue - Page 3: Land Oh'), ['action' => 'landOh']) ?>
-    </button>
+        <div class="compass">
+        <button type="button" class="btn btn-success">
+          <?= $this->Html->link(__('Continue - Page 3: Land Oh'), ['action' => 'landOh']) ?>
+        </button>
+    </div>
 
     
 

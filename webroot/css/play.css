@@ -3,3 +3,19 @@ img{
     height: 40vh;
     display: block;
 }
+
+.compass{
+    width: 250px;
+    height: 250px;
+    background-image: url("../../img/compass.png");
+    background-size: 100%;
+    margin: 0 auto;
+}
+
+button{
+    width: 100%;
+}
+
+a{
+    color: white;
+}

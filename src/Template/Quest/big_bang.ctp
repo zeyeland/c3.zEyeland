@@ -32,9 +32,11 @@
 
     <br><br> 
 
-    <button type="button" class="btn btn-success">
-    <?= $this->Html->link(__('Continue - Page 2: The New World'), ['action' => 'newWorld']) ?>
-    </button>
+    <div class="compass">
+        <button type="button" class="btn btn-success">
+            <?= $this->Html->link(__('Continue - Page 2: The New World'), ['action' => 'newWorld']) ?>
+        </button>
+    </div>
 
 
 
