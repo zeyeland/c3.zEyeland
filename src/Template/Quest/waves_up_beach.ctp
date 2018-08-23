@@ -16,13 +16,13 @@ Wave Up Beach
     Just a typical beautiful day here on zEyeland
         <?= $this->Html->image('scene3/wavesUp0.jpg', ['alt' => 'CakePHP']) ?>
         <button type="button" class="buttonObjectives">
-                Approach the flying pig
+                <?= $this->Html->link(__('Approach the flying pig'), ['controller' => 'Interaction', 'action' => 'flyingPig']) ?>
             </button>
         <br>
         Surfs up dUDe!
         <?= $this->Html->image('scene3/wavesUp1.jpg', ['alt' => 'CakePHP']) ?>
             <button type="button" class="buttonObjectives">
-                Talk to Surf Man Stevie
+                <?= $this->Html->link(__('Talk to Surf Man Stevie'), ['controller' => 'Interaction', 'action' => 'surfingStevie']) ?>
             </button>
 	</div>
 

@@ -4,10 +4,10 @@ namespace App\Controller;
 use App\Controller\AppController;
 
 /**
- * MyIslander Controller
+ * QuestController Controller
  *
  *
- * @method \App\Model\Entity\MyIslander[]|\Cake\Datasource\ResultSetInterface paginate($object = null, array $settings = [])
+ * @method \App\Model\Entity\QuestController[]|\Cake\Datasource\ResultSetInterface paginate($object = null, array $settings = [])
  */
 class QuestController extends AppController
 {

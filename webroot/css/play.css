@@ -38,3 +38,8 @@ button{
 a{
     color: white;
 }
+
+#betteFormat{
+    white-space: normal;
+    font-size: 80%;
+}

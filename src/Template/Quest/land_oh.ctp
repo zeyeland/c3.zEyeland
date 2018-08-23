@@ -18,15 +18,15 @@
     Welcometh to zEyeland scrubeth
         <?= $this->Html->image('scene3/landOhBeach.jpg', ['alt' => 'CakePHP']) ?>
             <button type="button" class="buttonObjectives">
-                Explore crashed ship
+                <?= $this->Html->link(__('Explore crashed ship'), ['controller' => 'Interaction', 'action' => 'crashedShip']) ?>
             </button>
         <br><br>
         <?= $this->Html->image('scene3/meetNgreet1.jpg', ['alt' => 'CakePHP']) ?>
             <button type="button" class="buttonObjectivesHalf">
-                Talk to Hotbird Bette
+                <?= $this->Html->link(__('Talk to Hotbird Bette'), ['controller' => 'Interaction', 'action' => 'hotbirdBette']) ?>
             </button>
-            <button type="button" class="buttonObjectivesHalf">
-                Chat w/ Chuck Simpson
+            <button type="button" class="buttonObjectivesHalf">          
+                <?= $this->Html->link(__('Chat w/ Chuck Simpson'), ['controller' => 'Interaction', 'action' => 'chuckSimpson']) ?>
             </button>
 	</div>
 

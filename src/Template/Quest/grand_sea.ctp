@@ -19,7 +19,7 @@
             <?= $this->Html->image('scene2/byTheKraken.jpeg', ['alt' => 'CakePHP']) ?>
         <br>
             <button type="button" class="buttonObjectives">
-                Stare into its eyes of the Kraken and mug.
+                <?= $this->Html->link(__('Stare into its eyes of the Kraken and mug.'), ['controller' => 'Interaction', 'action' => 'theKraken']) ?>
             </button>
         <br>
         <br>
