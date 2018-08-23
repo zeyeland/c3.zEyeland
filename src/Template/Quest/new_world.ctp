@@ -11,22 +11,23 @@
 <br>
     Chapter 1: The New World
 	<div class="panel">
-        Ying: Sugar Spice and Everything nice. These are the ingresdiants to make the ultimate power @#$&<br>
-        Yang: Quit jerking off you Zurg wannabe. This isn't Power Puff Girls. Too infinity and beyond!!!<br>
-        Ying: Hold on, I fogot to stick my foot in it.<br>
+    Ying: Sugar Spice and Everything nice. These are the ingresdiants to make the ultimate boys of TRowdyruff<br>
+        Yang: Quit done~keying you zurg. This isn't Poderpuff girls. Too infinity and beyond<br>
+        Ying: Hold on, my toe is still in it.<br>
 
         <?= $this->Html->image('scene1/beg3.jpg', ['alt' => 'CakePHP']) ?>
         <br>
-        Only timeth can bid what is in st're f'r future. Shall thee decideth thy faith or 
-        marith in the purity of hon'r. Prehaps shalt seeketh spiritual prosp'rity and its assets of gold. Shouldst thee falleth victim to unfav'rable circumstances
-        the kracken shall judgeth aft'r its hath said 'r done. Did bless, shouldst the dice rolleth in fav'rable odds. Welcometh to zEyeland scrubeth
-        <br>
+        Only timeth can bid what is in st're f'r future. Shall thee decideth thy faith or
+        marith in the purity of hon'r. Prehaps shalt seeketh spiritual prosp'rity and its assets of gold.
+        Eith'r way the kracken shall representeth prejudgment and setteth t off liketh a movie.
+        That gent holds t down liketh texas summ'r. [English Translation - The Kracken be putting in work]
+        Welcometh to zEyeland scrubeth<br>
         <?= $this->Html->image('scene1/beg4.jpg', ['alt' => 'CakePHP']) ?>
 	</div>
 
 
 
-    <br><br> 
+    <br><br>
 
 
         <div class="compass">

@@ -12,11 +12,11 @@
 ?>
 <br>
     The Crossroads (Caution)
- 
+
 	<div class="panel">
-    Enjoying the scenery, you drift off the path. Wow, whats going on here, you quickly hide behind a tall bush. 
+    Enjoying the scenery, you drift off the path. Wow, whats going on here, you quickly hide behind a tall bush.
     Looks like you've stumpled into the wrong place wrong time? These guys mean buisness, better
-    not interput. These islanders look out of my leauge.
+    not interput. These islanders look out of your leauge.
         <?= $this->Html->image('scene3/wrongWay.jpg', ['alt' => 'CakePHP']) ?>
         <br>
         <button type="button"  class="buttonWarning">
@@ -25,7 +25,7 @@
 	</div>
 
 
-    <br><br> 
+    <br><br>
 
 <div class="compass">
         <button type="button" class="btn btn-success" class="buttonConfig">

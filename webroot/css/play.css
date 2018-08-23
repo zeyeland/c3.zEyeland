@@ -30,6 +30,11 @@ button{
     background-color: rgb(46, 137, 223);
 }
 
+.buttonObjectivesHalf{
+    background-color: rgb(46, 137, 223);
+    width: 49%;
+}
+
 a{
     color: white;
 }

@@ -12,8 +12,8 @@
 ?>
 <br>
 
- Chapter 1: Land Ohhh 
- 
+ Chapter 1: Land Ohhh
+
 	<div class="panel">
     Welcometh to zEyeland scrubeth
         <?= $this->Html->image('scene3/landOhBeach.jpg', ['alt' => 'CakePHP']) ?>
@@ -21,14 +21,17 @@
                 Explore crashed ship
             </button>
         <br><br>
-        <?= $this->Html->image('scene3/meetNgreet.jpg', ['alt' => 'CakePHP']) ?>
-            <button type="button" class="buttonObjectives">
-                Fill this in later!!!
+        <?= $this->Html->image('scene3/meetNgreet1.jpg', ['alt' => 'CakePHP']) ?>
+            <button type="button" class="buttonObjectivesHalf">
+                Talk to Hotbird Bette
+            </button>
+            <button type="button" class="buttonObjectivesHalf">
+                Chat w/ Chuck Simpson
             </button>
 	</div>
 
 
-    <br><br> 
+    <br><br>
 
 <div class="compass">
         <button type="button" class="btn btn-success" class="buttonConfig">
@@ -36,7 +39,7 @@
         </button>
         <br><br>
         <button type="button" class="btn btn-success">
-        <?= $this->Html->link(__('Continue down path'), ['action' => 'crossRoads']) ?>        
+        <?= $this->Html->link(__('Continue down path'), ['action' => 'crossRoads']) ?>
         </button>
     </div>
 

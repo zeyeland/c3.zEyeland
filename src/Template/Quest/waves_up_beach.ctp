@@ -10,11 +10,14 @@
     echo $this->Html->script('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js');
 
 ?>
-<br> 
+<br>
 Wave Up Beach
 	<div class="panel">
     Just a typical beautiful day here on zEyeland
-        <?= $this->Html->image('scene3/wavesUp.jpg', ['alt' => 'CakePHP']) ?>
+        <?= $this->Html->image('scene3/wavesUp0.jpg', ['alt' => 'CakePHP']) ?>
+        <button type="button" class="buttonObjectives">
+                Approach the flying pig
+            </button>
         <br>
         Surfs up dUDe!
         <?= $this->Html->image('scene3/wavesUp1.jpg', ['alt' => 'CakePHP']) ?>
