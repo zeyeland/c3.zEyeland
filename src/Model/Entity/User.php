@@ -45,7 +45,8 @@ class User extends Entity
         'purse' => true,
         'honor' => true,
         'health' => true,
-        'islander_focus' => true
+        'islander_focus' => true,
+        'quest_points' => true
     ];
 
     /**

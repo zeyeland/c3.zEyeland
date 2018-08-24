@@ -14,6 +14,10 @@
                 <td><?= h($userFocus['level']) ?></td>
             </tr>
             <tr>
+                <th scope="row"><?= __('QP') ?></th>
+                <td><?= h($userFocus['quest_points']) ?></td>
+            </tr>
+            <tr>
                 <th scope="row"><?= __('Honor:') ?></th>
                 <td><?= h($userFocus['honor']) ?></td>
             </tr>

@@ -32,7 +32,10 @@ function loadScript(){
     }
     if(playerCounter == 2 && questPoints == 0){
         //this should redirect player to next page. Should also add questpoint to player data
-        alert("this should activate");
+        //alert("playerCounter -> " + playerCounter);
+        //alert("this should activate");
+        window.location = '../my-islander/quest-up/landOh';
+        //window.location = '../quest/land-oh';
     }
     if(playerCounter > 2 && playerCounter < 5){
         document.getElementById("playerText").innerHTML = playerScript[playerCounter];

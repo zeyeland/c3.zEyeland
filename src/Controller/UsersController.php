@@ -127,7 +127,7 @@ class UsersController extends AppController
             if($user){
                 $this->Auth->setUser($user);
                 //debug($this->Auth->identify()); die();
-                return $this->redirect(['controller' => 'MyIslander']);
+                return $this->redirect(['controller' => 'MyIslander', 'action'=>'index']);
             }
             // Bad Login
             $this->Flash->error('Incorrect Login');
@@ -149,7 +149,9 @@ class UsersController extends AppController
             'exp' => 0,
             'purse' => 0,
             'honor' => 1,
-            'health' => 100
+            'health' => 100,
+            'quest_points' => 0,
+            'islander_focus' => 0
         ]);
         if ($this->request->is('post')) {
             $user = $this->Users->patchEntity($user, $this->request->getData());

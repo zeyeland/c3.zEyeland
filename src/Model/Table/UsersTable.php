@@ -109,8 +109,13 @@ class UsersTable extends Table
         $validator
             ->scalar('islander_focus')
             ->maxLength('islander_focus', 50)
-            ->requirePresence('islander_focus', 'create')
+        //    ->requirePresence('islander_focus', 'create')
             ->notEmpty('islander_focus');
+        
+        $validator
+            ->integer('quest_points')
+        //    ->requirePresence('quest_points', 'create')
+            ->notEmpty('quest_points');
 
         return $validator;
     }

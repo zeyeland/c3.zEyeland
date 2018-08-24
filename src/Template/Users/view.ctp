@@ -68,5 +68,9 @@
             <th scope="row"><?= __('Health') ?></th>
             <td><?= $this->Number->format($user->health) ?></td>
         </tr>
+        <tr>
+            <th scope="row"><?= __('QP') ?></th>
+            <td><?= $this->Number->format($user->quest_points) ?></td>
+        </tr>
     </table>
 </div>

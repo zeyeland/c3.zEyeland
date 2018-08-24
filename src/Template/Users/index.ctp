@@ -28,6 +28,7 @@
                 <th scope="col"><?= $this->Paginator->sort('honor') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('health') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('islander_focus') ?></th>
+                
                 <th scope="col" class="actions"><?= __('Actions') ?></th>
             </tr>
         </thead>
