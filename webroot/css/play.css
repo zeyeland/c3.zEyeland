@@ -37,6 +37,12 @@ button{
     height: 38px;
 }
 
+.buttonObjectivesHidden{
+    background-color: rgb(46, 137, 223);
+    height: 38px;
+    display: none;
+}
+
 .buttonObjectivesHalf{
     background-color: rgb(46, 137, 223);
     width: 49%;

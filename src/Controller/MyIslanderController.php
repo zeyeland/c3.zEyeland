@@ -28,7 +28,7 @@ class MyIslanderController extends AppController
     {
         $userFocus = $this->Auth->user();
         $this->set('userFocus', $userFocus);
-        
+        //debug($this->Auth->user());
     }
 
     //this functions should increment the user/player quest level by 1 before redirecting to needed page
@@ -44,8 +44,10 @@ class MyIslanderController extends AppController
         
         if($destination === 'landOh'){
             $this->redirect(['controller' => 'Quest', 'action' => 'landOh']);
-        }
-        
+        }else
+        if($destination === 'wavesUpBeach'){
+            $this->redirect(['controller' => 'Quest', 'action' => 'wavesUpBeach']);
+        }    
     }
 
 }

@@ -11,39 +11,46 @@ var playerScript = [
     "Ok",
     "",
     "Hi Stevie needs a surfboard. Oh I saw a flying pig.",
-    "Where is that pig again..."
+    "Where is that pig again...(head back)"
 ];
 
 var chuckCounter = 0;
 var playerCounter = 0;
 var questPoints = 0;
 
-/*function pageLoad() {
-     questPoints = document.getElemntById('questpoints').innerHTML;
-     if(questPoints > 0){
+function pageLoad() {
+     questPoints = document.getElementById('questPoints').innerHTML;
+     console.log(questPoints);
+     if(questPoints > 1 && questPoints < 4){
         chuckCounter = 3;
         playerCounter = 3;
      }
-}*/
-//pageLoad();
+}
+pageLoad();
 function loadScript(){
     if(playerCounter < 2){
         document.getElementById("playerText").innerHTML = playerScript[playerCounter];
     }
     if(playerCounter == 2 && questPoints == 0){
         //this should redirect player to next page. Should also add questpoint to player data
-        //alert("playerCounter -> " + playerCounter);
-        //alert("this should activate");
         window.location = '../my-islander/quest-up/landOh';
+        //window.location = '../quest/land-oh';
+    }
+    if(playerCounter == 2 && questPoints == 1){
+        //this should redirect player to next page. ***no level up
+        window.location = '../quest/landOh';
         //window.location = '../quest/land-oh';
     }
     if(playerCounter > 2 && playerCounter < 5){
         document.getElementById("playerText").innerHTML = playerScript[playerCounter];
     }
-    if(playerCounter == 5 && questPoints == 1){
+    if(playerCounter == 5 && questPoints == 2){
         //this should redirect player to next page. Should also add questpoint to player data
-        alert("this should activate");
-
+        window.location = '../my-islander/quest-up/landOh';
+    }
+    if(playerCounter == 5 && questPoints == 3){
+        //this should redirect player to next page. Should also add questpoint to player data
+        window.location = '../quest/land-oh';
     }
     ///
     if(chuckCounter >= 0){

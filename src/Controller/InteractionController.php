@@ -2,6 +2,8 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\ORM\TableRegistry;
+
 
 /**
  * InteractionController Controller
@@ -41,11 +43,23 @@ class InteractionController extends AppController
     }
 
     public function flyingPig(){
-        
+        //load table
+        $usersTable = TableRegistry::get('users');
+        //load users from table with $this->Auth->user()['islander_id']
+        $user = $usersTable->get($this->Auth->user()['islander_id']); // Return article with id 12
+        //get users questPoints
+        $userQuestPoints = $user->quest_points;
+        $this->set('userQuestPoints', $userQuestPoints);
     }
 
     public function surfingStevie(){
-        
+        //load table
+        $usersTable = TableRegistry::get('users');
+        //load users from table with $this->Auth->user()['islander_id']
+        $user = $usersTable->get($this->Auth->user()['islander_id']); // Return article with id 12
+        //get users questPoints
+        $userQuestPoints = $user->quest_points;
+        $this->set('userQuestPoints', $userQuestPoints);
     }
 
     public function hotbirdBette(){
@@ -53,7 +67,13 @@ class InteractionController extends AppController
     }
 
     public function chuckSimpson(){
-        
+        //load table
+        $usersTable = TableRegistry::get('users');
+        //load users from table with $this->Auth->user()['islander_id']
+        $user = $usersTable->get($this->Auth->user()['islander_id']); // Return article with id 12
+        //get users questPoints
+        $userQuestPoints = $user->quest_points;
+        $this->set('userQuestPoints', $userQuestPoints);
     }
 
 
