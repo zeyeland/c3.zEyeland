@@ -16,7 +16,7 @@
     but atleast he doesn't smell like you do NeRddddD.
         <br>
         <br>
-            <?= $this->Html->image('scene2/bette.gif', ['alt' => 'bette']) ?>
+            <?= $this->Html->image('scene3/char/bette.png', ['class' => 'imgBette', 'alt' => 'bette']) ?>
 	</div>
 
         <div class="compass">
@@ -25,7 +25,7 @@
         </button>
     </div>
 
-    
+
 
 
 

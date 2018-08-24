@@ -4,6 +4,12 @@ img{
     display: block;
 }
 
+.imgBette{
+    width: 115px;
+    height: 115px;
+    margin: 0 auto;
+}
+
 .compass{
     width: 250px;
     height: 250px;
@@ -28,6 +34,7 @@ button{
 
 .buttonObjectives{
     background-color: rgb(46, 137, 223);
+    height: 38px;
 }
 
 .buttonObjectivesHalf{

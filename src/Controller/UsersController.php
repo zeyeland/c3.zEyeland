@@ -63,7 +63,7 @@ class UsersController extends AppController
             'exp' => 0,
             'purse' => 0,
             'honor' => 1,
-            'health' => 100 
+            'health' => 100
         ]*/);
         if ($this->request->is('post')) {
             $user = $this->Users->patchEntity($user, $this->request->getData());
@@ -162,5 +162,5 @@ class UsersController extends AppController
         }
         $this->set(compact('user'));
    }
-  
+
 }

@@ -16,7 +16,7 @@
     Out of the water, I am nothing. There is nothing, nothing, more sad than a surfer who used to surf.
         <br>
         <br>
-            <?= $this->Html->image('scene2/bette.gif', ['alt' => 'bette']) ?>
+            <?= $this->Html->image('scene3/char/stevie.png', ['class' => 'imgBette','alt' => 'bette']) ?>
 	</div>
 
         <div class="compass">
@@ -25,7 +25,7 @@
         </button>
     </div>
 
-    
+
 
 
 
