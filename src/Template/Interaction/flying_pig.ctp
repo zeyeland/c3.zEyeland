@@ -5,9 +5,9 @@
 </span>
     Swine the Legendary Pig
 	<div class="panel">
-    Swine The Flying Pig<p id="chuckText">QUACK!!!!</p>
+    Swine The Flying Pig<p id="pigText"></p>
 
-            <?= $this->Html->image('scene3/char/legendswine.png', ['class' => 'imgBette','alt' => 'bette']) ?>
+            <?= $this->Html->image('scene3/char/legendswine.png', ['id' => 'pigImg','class' => 'imgBette','alt' => 'bette']) ?>
             <br>
         <button type="button" class="buttonObjectives">
             <p id="playerText"></p>

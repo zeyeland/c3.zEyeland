@@ -25,6 +25,18 @@ function pageLoad() {
         chuckCounter = 3;
         playerCounter = 3;
      }
+     if(questPoints == 4){
+        document.getElementsByClassName('buttonObjectives')[0].style.display = "none";
+        chuckScript[0] = "Talk to Swine";
+     }
+     if(questPoints == 5){
+        document.getElementsByClassName('buttonObjectives')[0].style.display = "none";
+        chuckScript[0] = "Give Stevie the board";
+     }
+     if(questPoints > 5){
+        document.getElementsByClassName('buttonObjectives')[0].style.display = "none";
+        chuckScript[0] = "Ah look like your honor raised. Head north, this eyeland is full of wicked positives. My the force be with you OINK.";
+     }
 }
 pageLoad();
 function loadScript(){

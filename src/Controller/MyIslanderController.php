@@ -16,7 +16,7 @@ class MyIslanderController extends AppController
     public function initialize()
     {
         parent::initialize();
-        
+
     }
 
     /**
@@ -41,13 +41,13 @@ class MyIslanderController extends AppController
         $user->quest_points = $user->quest_points + 1;
         //save new user back to table
         $usersTable->save($user);
-        
+
         if($destination === 'landOh'){
             $this->redirect(['controller' => 'Quest', 'action' => 'landOh']);
         }else
         if($destination === 'wavesUpBeach'){
             $this->redirect(['controller' => 'Quest', 'action' => 'wavesUpBeach']);
-        }    
+        }
     }
 
 }
