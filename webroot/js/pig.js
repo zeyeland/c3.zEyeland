@@ -65,7 +65,7 @@ function loadScript(){
     if(playerCounter == 5){
         window.location = '../my-islander/quest-up/landOh';
     }
-    if(pigCounter >= 0 && pigCounter < 99){
+    if(pigCounter >= 0 && pigCounter < 30){
         document.getElementById("pigText").innerHTML = pigScript[pigCounter];
     }
 }

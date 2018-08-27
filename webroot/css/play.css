@@ -34,12 +34,12 @@ button{
 
 .buttonObjectives{
     background-color: rgb(46, 137, 223);
-    height: 38px;
+    height: 15%;
 }
 
 .buttonObjectivesHidden{
     background-color: rgb(46, 137, 223);
-    height: 38px;
+    height: 15%;
     display: none;
 }
 
